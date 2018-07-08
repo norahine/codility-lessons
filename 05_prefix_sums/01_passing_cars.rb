@@ -10,7 +10,7 @@ def solution(a)
     end
   end
 
-  if sum > 1000000000
+  if sum > 1_000_000_000
     return -1
   else
     return sum
