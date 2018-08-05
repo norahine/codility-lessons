@@ -11,9 +11,9 @@ def solution(a)
   end
 
   if sum > 1_000_000_000
-    return -1
+    -1
   else
-    return sum
+    sum
   end
 end
 

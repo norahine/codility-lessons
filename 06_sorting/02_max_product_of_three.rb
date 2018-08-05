@@ -1,6 +1,6 @@
 def solution(a)
   if a.length == 3
-    max_product = a.all.inject(:*)
+    max_product = a.inject(:*)
   else
     first_max = a.max
     a.delete(first_max)
